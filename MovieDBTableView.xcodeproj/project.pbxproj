@@ -15,6 +15,9 @@
 		CF6E55311ED53752006E2983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6E552F1ED53752006E2983 /* LaunchScreen.storyboard */; };
 		CF6E553C1ED53752006E2983 /* MovieDBTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E553B1ED53752006E2983 /* MovieDBTableViewTests.swift */; };
 		CF6E55471ED53752006E2983 /* MovieDBTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E55461ED53752006E2983 /* MovieDBTableViewUITests.swift */; };
+		CF6E55551ED53782006E2983 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E55541ED53782006E2983 /* Movie.swift */; };
+		CF6E55571ED53929006E2983 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E55561ED53929006E2983 /* Library.swift */; };
+		CF6E55591ED53A6C006E2983 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E55581ED53A6C006E2983 /* MovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CF6E55421ED53752006E2983 /* MovieDBTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDBTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6E55461ED53752006E2983 /* MovieDBTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBTableViewUITests.swift; sourceTree = "<group>"; };
 		CF6E55481ED53752006E2983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6E55541ED53782006E2983 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CF6E55561ED53929006E2983 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		CF6E55581ED53A6C006E2983 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				CF6E552F1ED53752006E2983 /* LaunchScreen.storyboard */,
 				CF6E55321ED53752006E2983 /* Info.plist */,
 				CF6E552A1ED53752006E2983 /* MovieDBTableView.xcdatamodeld */,
+				CF6E55541ED53782006E2983 /* Movie.swift */,
+				CF6E55561ED53929006E2983 /* Library.swift */,
+				CF6E55581ED53A6C006E2983 /* MovieTableViewController.swift */,
 			);
 			path = MovieDBTableView;
 			sourceTree = "<group>";
@@ -264,6 +273,9 @@
 			files = (
 				CF6E552C1ED53752006E2983 /* MovieDBTableView.xcdatamodeld in Sources */,
 				CF6E55261ED53752006E2983 /* ViewController.swift in Sources */,
+				CF6E55591ED53A6C006E2983 /* MovieTableViewController.swift in Sources */,
+				CF6E55571ED53929006E2983 /* Library.swift in Sources */,
+				CF6E55551ED53782006E2983 /* Movie.swift in Sources */,
 				CF6E55241ED53752006E2983 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
